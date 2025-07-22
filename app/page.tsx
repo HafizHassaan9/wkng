@@ -47,7 +47,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <img src="/logo.png" alt="CoachNiti Logo" className="h-16 md:h-20 w-auto" />
+              <img src="/logo.png" alt="CoachNiti Logo" className="h-12 md:h-16 w-auto object-contain my-auto" />
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer">About</a>
@@ -351,8 +351,10 @@ export default function Home() {
               <img src="/images/instagram.png" alt="Instagram" className="w-6 h-6" />
             </a>
             <a href="https://www.linkedin.com/in/coach-niti/" target="_blank">
+              <img src="/images/linkedin.png" alt="LinkedIn" className="w-6 h-6" />
             </a>
             <a href="https://web.facebook.com/CoachNitiVohra/" target="_blank">
+              <img src="/images/facebook.png" alt="Facebook" className="w-6 h-6" />
             </a>
           </div>
               <h4 className="text-lg font-semibold mb-4">Get in Touch</h4>
@@ -463,21 +465,6 @@ export default function Home() {
           animation-delay: 0.5s;
         }
       `}</style>
-    
-<section className="w-full bg-gray-100 py-16 px-4 flex flex-col items-center text-center">
-  <p className="text-2xl md:text-3xl font-semibold text-gray-800 max-w-2xl">
-    Build smarter, code faster. Explore everything our AI can do for your development workflow.
-  </p>
-  <a
-    href="https://linktr.ee/coachniti"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mt-6 inline-block px-8 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
-  >
-    See Details
-  </a>
-</section>
-
-</div>
+    </div>
   );
 }
