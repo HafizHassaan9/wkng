@@ -477,6 +477,7 @@ export default function Home() {
     See Details
   </a>
 </section>
+
 </div>
   );
 }
