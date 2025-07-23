@@ -16,8 +16,12 @@ export default function Home() {
     }, 2500);
 
 <section className="w-full bg-gray-100 py-16 px-4 flex flex-col items-center text-center">
+<p className="text-center text-xl text-gray-700 font-semibold mb-6">Smarter leadership starts here.</p>
+
+<p className="text-center text-xl text-gray-500 mb-6">We are currently not hiring, but we’d love to hear from you. Please check back soon.</p>
+
   <p className="text-2xl md:text-3xl font-semibold text-gray-800 max-w-2xl">
-    Build smarter, code faster. Explore everything our AI can do for your development workflow.
+    Smarter leadership starts here.
   </p>
   <a
     href="https://linktr.ee/coachniti"
@@ -483,7 +487,7 @@ export default function Home() {
 
 <section className="w-full bg-gray-100 py-16 px-4 flex flex-col items-center text-center">
   <p className="text-2xl md:text-3xl font-semibold text-gray-800 max-w-2xl">
-    Build smarter, code faster. Explore everything our AI can do for your development workflow.
+    Smarter leadership starts here.
   </p>
   <a
     href="https://linktr.ee/coachniti"
